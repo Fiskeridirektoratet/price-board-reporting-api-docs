@@ -9,13 +9,13 @@
 
 ### Rapporteringspliktig som ønsker å benytte en tjenesteleverandør
 
-* Dere må gi “Tilgang til Programmeringsgrensesnitt - API” i Altinn til tjenesteleverandør.
-* Søk og velg “Tilgang til API for prisoppgaveskjema”
-* Se `https://samarbeid.digdir.no/maskinporten/ta-i-bruk-maskinporten/97` under “Konsument - delegert til leverandør.”
+* Dere må gi fullmakt til API i Altinn til tjenesteleverandør. Følg veiviser på https://info.altinn.no/hjelp/ny-tilgangsstyring/maskinportenadministrasjon/ for å gi ansatte tilgang til dette.
+* Søk og velg fullmakten “Tilgang til API for prisoppgaveskjema”
+* Ta kontakt med tjenesteleverandør som leverer integrasjonen, slik at de kan rapportere på vegne av dere.
 
 ### En tjenesteleverandør som vil tilby innsending for rapporteringspliktige
 
-* Gjelder leverandør av fagsystem med integrasjon mot Fiskeridirektoratet’s APIer.
+* Gjelder leverandør av system med integrasjon mot Fiskeridirektoratet’s APIer.
 * Din kunde må ha tildelt API-tilgang i Altinn til leverandør.
 * Leverandør av system må opprette en Maskinporten med scope `fdir:priceboardreportingapi`.
 * Samme klient kan brukes til å rapportere for flere kunder ved å endre `consumer_org` verdien.
